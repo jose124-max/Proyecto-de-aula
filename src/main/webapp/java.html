@@ -3,8 +3,159 @@
     <head>
         <title>JavaScritp</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <SCRIPT LANGUAGE=“Javascript”>
+function Saludo()
+ {
+ alert(“Hola mundo”);
+}
+ </SCRIPT>
+
+
     </head>
     <body>
-        <h1>JavaScritp</h1>
+        <h1>JavaScritp.</h1>
+
+        <p>
+            Es un lenguaje de programación interpretado que se introdujo en 1995 como un medio para agregar programas a páginas web en el navegador Netscape Navigator. Posterior a eso JavaScript fue tomado por los navegadores web principales de la época. Gracias a él las aplicaciones web modernas son posibles ya que permite interactuar directamente sin la necesidad de realizar una recarga de página para cada acción y también permite ser utilizado en sitios webs más tradicionales para proporcionar múltiples formas de interactividad e ingenio en sus plataformas.
+        </p>
+        <p>A pesar de múltiples confusiones se debe considerar que JavaScript tiene más bien poco que ver con el lenguaje de programación Java. En su momento el parecido del nombre fue un hecho de mero marketing, y es que cuando fue introducido JavaScript, el lenguaje Java estaba en alto apogeo y con una popularidad ascendente.
+        </p>
+        <p>JavaScript ha presentado varias versiones a lo largo de su existencia. Su versión 3(ECMAScript) fue la más ampliamente compatible en su momento de ascenso entre el 2000 y 2010. Y en ese periodo también se trabajó en una posible versión 4, la cual se esperaba que presentará grandes mejores para el lenguaje. Sin embargo, el abandono de un lenguaje vivió y ampliamente aceptado para la época fue exageradamente difícil, lo que llevo al abandono del trabajo en la versión en el año 2008, lo que conllevo a la creación de una versión 5, pero mucho menos ambiciosa que la codiciada versión 4, esta versión 5 se publicaría en el año 2009 con una actualización significativa en el 2015. Desde ese momento se han presentado actualizaciones pequeñas cada año. 
+            <small><a href="#primer">[1]</a></small>
+        </p>
+        <h1>Un programa sencillo.</h1>
+        <p>Para usar JavaScript en un fichero HTML se deberá referenciar de la siguiente manera:</p>   
+        <div>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">SCRIPT</span>
+            <span class="enlighter-g1">LANGUAJE</span>
+            <span class="enlighter-g1">=</span>
+            <span class="enlighter-g1">"</span>
+            <span class="enlighter-g1">Javascript1.1"</span>
+            <span class="enlighter-g1">></span>
+            <span class="enlighter-g1">...<</span>
+            <span class="enlighter-g1">/SCRIPT</span>
+            <span class="enlighter-g1">></span>
+
+        </div>
+
+        <p>
+            Esta etiqueta debe ser colocada en el punto del documento que deseemos, aunque hay que tomar en cuenta que si un navegador no ofrece soporte de JavaScript ignorará la etiqueta, por ende, no hay que volver nuestro sitio web muy dependiente de este. Dentro de la etiqueta script podremos ingresar nuestro código, y lo podemos definir mediante funciones.
+            <small><a href="#segundo">[2]</a></small>
+        </p>
+        <p>Para crear una función usamos la etiqueta function</p>
+        <div>
+            <span class="enlighter-g1">function [nombre de la función]()</span>
+            <br>
+            <span class="enlighter-g1">{</span>
+            <br>
+            <br>
+            <span class="enlighter-g1">...</span>
+            <br>
+            <br>
+            <span class="enlighter-g1">}</span>
+            <br>
+            <br>
+
+        </div>
+        <h1>Alert</h1>
+        <p>Para mostrar una alerta en una pagina web se usa alert(“texto del mensaje”)</p>
+        <div>
+            <span class="enlighter-g1">function Saludo()</span>
+            <br>
+            <span class="enlighter-g1">{</span>
+            <br>
+            <br>
+            <span class="enlighter-g1">Alert("Hola mundo)</span>
+            <br>
+            <br>
+            <span class="enlighter-g1">}</span>
+            <br>
+            <br>
+
+        </div>
+        <p>Se puede presentar el alert en html de distintas maneras:</p>
+        <p>Ejemplos:</p>
+        <div>
+
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">a href</span>
+            <span class="enlighter-g1">=</span>
+            <span class="enlighter-g1">"javascript:(function()</span>
+            <span class="enlighter-g1">{alert('Hola gente')}()"</span>
+            <span class="enlighter-g1">>Mensaje</span>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">/a</span>
+            <span class="enlighter-g1">></span>
+            <br>
+            <a href="javascript:(function(){alert('Hola gente')})()">Mensaje</a>
+            <br><!-- comment -->
+             <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">a href</span>
+            <span class="enlighter-g1">=</span>
+            <span class="enlighter-g1">"javascript:alert('Hola gente');"</span>
+            <span class="enlighter-g1">>Mensaje</span>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">/a</span>
+            <span class="enlighter-g1">></span>
+            <br>
+            	<a href="javascript:alert('Hola gente');">Mensaje</a>
+            <br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">HTML></span>
+            <br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">HEAD></span>
+            <br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">SCRIPT </span>
+            <span class="enlighter-g1">LANGUAGE=</span>
+            <span class="enlighter-g1">="</span>
+            <span class="enlighter-g1">Javascript"</span>
+            <span class="enlighter-g1">></span><br>
+            <span class="enlighter-g1">function Saludo()</span><br>
+            <span class="enlighter-g1">{</span><br>
+            <span class="enlighter-g1">alert("Hola mundo");</span><br>
+            <span class="enlighter-g1">}</span><br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">/SCRIPT</span>
+            <span class="enlighter-g1">></span><br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">/HEAD</span>
+            <span class="enlighter-g1">></span><br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">BODY></span><br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">FORM></span><br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">INPUT TYPE=</span>
+            <span class="enlighter-g1">"button" NAME="Boton" VALUE="Pulsar" onClick="Saludo()"</span>
+            <span class="enlighter-g1">></span><br>
+            <span class="enlighter-g1"><</span>
+            <span class="enlighter-g1">/FORM</span>
+            <span class="enlighter-g1">></span>
+            <span class="enlighter-g1"></</span>
+            <span class="enlighter-g1">BODY></span><br>
+            <span class="enlighter-g1"></</span>
+            <span class="enlighter-g1">HTML></span>
+            
+            
+<FORM>
+ <INPUT TYPE=“button” NAME=“Boton”
+VALUE=“Pulsar” onClick="Saludo();">
+</FORM>
+
+
+            
+        </div>
+
+
     </body>
+    <footer>
+        <a id="primer">M. Haverbeke, ELOQUENT JAVASCRIPT, Creative Commons Atribución-NoComercial, 2018. </a><br>
+        <a id="segundo">C. Mateu, Desarrollo de aplicaciones web, Cataluña, 2004.  </a><br>
+        <a id="tercero"> T. Navarrete, «El lenguaje JavaScript,» de Diseño gráfico de páginas web, Oviedo, 2000. </a><br>
+        <a id="cuarto"> E. Gutierrez, JavaScriot Conceptos básicos y avanzados, Barcelona: eni ediciones, 2009.</a><br>
+
+    </footer>
 </html>
